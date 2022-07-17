@@ -1,0 +1,8 @@
+.wy-nav-content {
+  max-width: none;
+}
+video {
+  display: block;
+  width: 90%;
+  margin-bottom: 40px;
+}
