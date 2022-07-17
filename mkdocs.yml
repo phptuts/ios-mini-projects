@@ -1,0 +1,15 @@
+site_name: SwiftUI Mini Projects
+nav:
+  - Start Here: index.md
+  - Multiplication Tables: 1-multiplication-tables.md
+  - Color Picker: 2-color-picker.md
+  - Animated Counter: 3-animated-counter.md
+  - Play Random Sound: 4-play-random-sound-with-link.md
+  - 25 x 5 Clock: 5-25-5-clock-freecodecamp.md
+  - Dog Api: 6-dog-api.md
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages: ['lua', 'javascript', 'python', 'swift']
+extra_css:
+  - css/style.css
