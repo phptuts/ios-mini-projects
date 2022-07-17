@@ -13,6 +13,7 @@ Create a clock that has an adjustable timer for work and break.  When it hits th
 ## Resources
 
 - [Discord](https://discord.gg/Jwv7xaPRMS)
+- [FreeCodeCamp Challenge](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-25--5-clock)
 - [Builtin Sounds](https://iphonedevwiki.net/index.php/AudioServices)
 - [Playing Sounds](https://stackoverflow.com/questions/61310578/play-reminder-sound-swiftui/61313673#61313673)
 - [Timer](https://www.hackingwithswift.com/articles/117/the-ultimate-guide-to-timer)
