@@ -15,7 +15,6 @@
 		8F33B9502866068000ED8032 /* TimerChallengeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B94F2866068000ED8032 /* TimerChallengeAppUITests.swift */; };
 		8F33B9522866068000ED8032 /* TimerChallengeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B9512866068000ED8032 /* TimerChallengeAppUITestsLaunchTests.swift */; };
 		8F33B96128694BAD00ED8032 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B96028694BAD00ED8032 /* AppState.swift */; };
-		8F415F33286B717100F99727 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F415F32286B717100F99727 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		8F33B94F2866068000ED8032 /* TimerChallengeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerChallengeAppUITests.swift; sourceTree = "<group>"; };
 		8F33B9512866068000ED8032 /* TimerChallengeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerChallengeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8F33B96028694BAD00ED8032 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		8F415F32286B717100F99727 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +101,6 @@
 				8F33B96028694BAD00ED8032 /* AppState.swift */,
 				8F33B9382866068000ED8032 /* Assets.xcassets */,
 				8F33B93A2866068000ED8032 /* Preview Content */,
-				8F415F32286B717100F99727 /* PlaySound.swift */,
 			);
 			path = TimerChallengeApp;
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F33B9372866067E00ED8032 /* ContentView.swift in Sources */,
-				8F415F33286B717100F99727 /* PlaySound.swift in Sources */,
 				8F33B9352866067E00ED8032 /* TimerChallengeAppApp.swift in Sources */,
 				8F33B96128694BAD00ED8032 /* AppState.swift in Sources */,
 			);

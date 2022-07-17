@@ -13,7 +13,7 @@ enum Mode: String, Equatable {
 }
 
 struct AppState {
-    var workMinutes: Int = 1 {
+    var workMinutes: Int = 25 {
         didSet {
             if mode == .session {
                 currentTime = workMinutes * 60
@@ -36,7 +36,7 @@ struct AppState {
     var playSound: () -> Void
     
     init(playSound: @escaping () -> Void) {
-        self.currentTime = workMinutes * 10
+        self.currentTime = workMinutes * 60
         self.playSound = playSound
     }
     
