@@ -7,6 +7,7 @@ nav:
   - Play Random Sound: 4-play-random-sound-with-link.md
   - 25 x 5 Clock: 5-25-5-clock-freecodecamp.md
   - Dog Api: 6-dog-api.md
+  - Dynamic Form: 7-dynamic-forms.md
 theme:
   name: readthedocs
   highlightjs: true
