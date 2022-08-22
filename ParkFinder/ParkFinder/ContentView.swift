@@ -67,7 +67,7 @@ struct ContentView: View {
                         .accessibilityElement(children: .ignore)
                         .accessibilityLabel("Get direction to where you parked")
                 }
-            }.navigationTitle("Park Finder")
+            }.navigationTitle("Last Parked Space")
                 .navigationBarTitleDisplayMode(.inline)
         }
     }
