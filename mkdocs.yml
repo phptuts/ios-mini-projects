@@ -8,7 +8,7 @@ nav:
   - 25 x 5 Clock: 5-25-5-clock-freecodecamp.md
   - Dog Api: 6-dog-api.md
   - Dynamic Form: 7-dynamic-forms.md
-  - Where I Last parked: 8-where-i-last-parked-maps-location.md
+  - Where I Last parked Maps and Location: 8-where-i-last-parked-maps-location.md
 theme:
   name: readthedocs
   highlightjs: true
