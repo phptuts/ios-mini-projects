@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Color Picker - SwiftUI Mini Projects</title>
+  <title>Where I Last parked - SwiftUI Mini Projects</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -19,8 +19,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Color Picker";
-    var mkdocs_page_input_path = "2-color-picker.md";
+    var mkdocs_page_name = "Where I Last parked";
+    var mkdocs_page_input_path = "8-where-i-last-parked-maps-location.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -59,16 +59,8 @@
                     <li class="toctree-l1"><a class="reference internal" href="../1-multiplication-tables/">Multiplication Tables</a>
                     </li>
                 </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Color Picker</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#code">Code</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#code-to-copy">Code To Copy</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../2-color-picker/">Color Picker</a>
                     </li>
                 </ul>
                 <ul>
@@ -91,8 +83,16 @@
                     <li class="toctree-l1"><a class="reference internal" href="../7-dynamic-forms/">Dynamic Form</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../8-where-i-last-parked-maps-location/">Where I Last parked</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Where I Last parked</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#demo">Demo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#code">Code</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
       </div>
@@ -116,7 +116,7 @@
     
       
     
-    <li>Color Picker</li>
+    <li>Where I Last parked</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -128,39 +128,29 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="color-picker">Color Picker</h1>
-<p>Create a color picker with 3 Slider that shows the hex value of the color, percentages of red, green and blue and the actual color in a SwiftUI Rectangle.</p>
+                <h1 id="where-i-last-parked-app">Where I Last Parked App</h1>
+<p>Create an application that uses the user's current lat and lng to remember where they parked.  Be sure to store this in UserDefaults so that when they come back to the app it will remember.  There should also be a button that takes them to Apple Maps so that they can navigate back to where they last parked.</p>
 <video controls>
-    <source src="https://storage.googleapis.com/noah-education-videos/swiftui/2-color-picker.mp4"
+    <source src="https://storage.googleapis.com/noah-education-videos/swiftui/8-where-i-parked.mp4"
             type="video/mp4">
 </video>
 
-<h2 id="code"><a href="https://github.com/phptuts/ios-mini-projects/blob/main/ColorPicker/ColorPicker/ContentView.swift">Code</a></h2>
-<h2 id="code-to-copy">Code To Copy</h2>
-<pre><code class="language-swift">extension Color {
-    func hexString() -&gt; String {
-        let components = self.cgColor?.components
-        let r: CGFloat = components?[0] ?? 0.0
-        let g: CGFloat = components?[1] ?? 0.0
-        let b: CGFloat = components?[2] ?? 0.0
+<h2 id="demo">Demo</h2>
+<video controls>
+    <source src="https://storage.googleapis.com/noah-education-videos/swiftui/8-quick-demo.mp4"
+            type="video/mp4">
+</video>
 
-        let hexString = String.init(format: &quot;#%02lX%02lX%02lX&quot;, lroundf(Float(r * 255)), lroundf(Float(g * 255)), lroundf(Float(b * 255)))
-        return hexString
-    }
-}
-
-extension Double {
-    func toPercent() -&gt; String {
-        String(format:&quot;%6.2f%%&quot;,self * 100)
-    }
-}
-</code></pre>
+<h2 id="code"><a href="https://github.com/phptuts/ios-mini-projects/tree/main/ParkFinder/ParkFinder">Code</a></h2>
 <h2 id="resources">Resources</h2>
 <ul>
-<li><a href="https://discord.gg/Jwv7xaPRMS">Discord</a></li>
-<li><a href="https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-slider-and-read-values-from-it">SwiftUI Slider</a></li>
-<li><a href="https://www.hackingwithswift.com/quick-start/swiftui/how-to-display-solid-shapes">SwiftUI Rectangle</a></li>
-<li><a href="https://www.hackingwithswift.com/quick-start/swiftui/what-is-the-state-property-wrapper">State</a></li>
+<li><a href="https://codewithchris.com/swiftui/swiftui-corelocation/">Location Manager</a></li>
+<li><a href="https://www.hackingwithswift.com/quick-start/swiftui/how-to-show-annotations-in-a-map-view">Map Annonations</a></li>
+<li><a href="https://stackoverflow.com/a/70299520">Will Appear Notification</a></li>
+<li><a href="https://codewithchris.com/swiftui/swiftui-apple-maps/">Navigating to App Maps</a></li>
+<li><a href="https://www.hackingwithswift.com/books/ios-swiftui/identifying-views-with-useful-labels">Accessiblity</a></li>
+<li><a href="https://www.hackingwithswift.com/books/ios-swiftui/storing-user-settings-with-userdefaults">User Defaults</a></li>
+<li><a href="https://www.hackingwithswift.com/articles/119/codable-cheat-sheet">Codable</a></li>
 </ul>
               
             </div>
@@ -169,10 +159,8 @@ extension Double {
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../3-animated-counter/" class="btn btn-neutral float-right" title="Animated Counter">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../1-multiplication-tables/" class="btn btn-neutral" title="Multiplication Tables"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../7-dynamic-forms/" class="btn btn-neutral" title="Dynamic Form"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -198,10 +186,8 @@ extension Double {
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../1-multiplication-tables/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../7-dynamic-forms/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-    
-      <span><a href="../3-animated-counter/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
